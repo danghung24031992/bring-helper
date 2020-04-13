@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source = { :path => 'file:' + __dir__ + '/' }
-  # s.source = {: path => '~/Users/danghung/Desktop/SourceCode/doctor/libs/RNBringHelper'}
+  s.source       = { :git => "https://github.com/danghung24031992/bring-helper.git", :tag => s.version }
   s.source_files  =  "RNBringHelper/**/*.{h,m}"
   s.requires_arc = true
 
